@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkslateblue;
+    color: white;
+    padding-top: 40px;
+    border: 2px black solid;
+
+    
+}
+.Header ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 30px;
+}
+.Header i{
+    display: none;
+}
+.Header button{
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 130px;
+    height: 40px;
+}
+.parent {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    background-color: coral;
+    width: 100%;
+    height: 550px;
+}
+.left{
+    padding-top: 30px;
+}
+.left p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.left button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 166px;
+}
+.left button span{
+    color: darkgoldenrod;
+}
+.Right {
+    background-color: white;
+    height: 500px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.Right h1{
+    padding-top: 20px;
+    padding-right: 10px;
+    
+}
+.Right p{
+    padding-top: 20px;
+}
+.Right h2{
+    padding-top: 10px;
+}
+.Right input{
+    width: 190px;
+    height: 25px;
+    margin-top: 10px;
+}
+.Body{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.Bidix h4{
+    padding-top: 20px;
+    color: chocolate;
+    font-size: 20px;
+}
+.Bidix p{
+    padding-top: 10px;
+}
+.Midig h1{
+    padding-top: 20px;
+}
+.Imeej-Parent{
+    display: flex;
+    gap: 30px;
+    padding-left: 25px;
+    padding-top: 40px;
+}
+.Imeej-Parent img{
+    width: 300px;
+    border-radius: 20px;
+}
+.Imeej-Parent a{
+padding-left: 40px;
+}
+.Imeej-Parent p{
+    padding-left: 40px;
+}
+@media screen and (max-width:600px){
+    .Header ul{
+        display: none;
+        
+    }
+    .Header h1{
+        padding-bottom: 20px;
+        padding-right: 200px;
+    }
+    .Header i{
+        font-size: 40px;
+        padding-bottom: 20px;
+        display: block;
+    }
+    .parent{
+        flex-direction: column;
+    }
+    .left{
+        padding: 20px 40px;
+    }
+    .Right{
+        padding: 20px 40px;
+    }
+    .Body{
+        flex-direction: column;
+        margin-top: 490px;
+        padding-left: 20px;
+    }
+    .Imeej-Parent{
+        flex-direction: column;
+    }
+    .Imeej-Parent img{
+        width: 350px;
+        height: 300px;
+    }
+    .Imeej-Left link{
+        padding-top: 20px;
+        margin-left: 40px;
+    }
+    .Right input{
+        font-size: 20px;
+    }
+}
+    
